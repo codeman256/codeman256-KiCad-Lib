@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PTS636_SP50_LFS
+D Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 5.0mm H, 320gf, THT leads, Black Actuator
+K
+F https://componentsearchengine.com/Datasheets/1/PTS636 SP50 LFS.pdf
+$ENDCMP
+#
+#End Doc Library
