@@ -48,4 +48,45 @@ P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model PTS636_SM25J_SMTR_LFS
+#/2171930/651113/2.49/2/4/Connector
+DEF PTS636_SM25J_SMTR_LFS J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "PTS636_SM25J_SMTR_LFS" 750 200 50 H V L CNN
+F2 "PTS636SM25JSMTRLFS" 750 100 50 H I L CNN
+F3 "https://www.mouser.co.uk/datasheet/2/60/pts636-1550567.pdf" 750 0 50 H I L CNN
+F4 "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 180gf, J leads, No ground pin, White Actuator" 750 -100 50 H I L CNN "Description"
+F5 "2.7" 750 -200 50 H I L CNN "Height"
+F6 "611-PTS636SM25JSMTRL" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SM25J-SMTR-LFS?qs=vLWxofP3U2zGz0hgscFyyw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "C & K COMPONENTS" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PTS636 SM25J SMTR LFS" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM 1 0 0 200 R 50 50 0 0 P
+X NO 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IN-S126ASUW
+#/1364181/651113/2.49/3/4/LED
+DEF IN-S126ASUW LED 0 30 Y Y 1 F N
+F0 "LED" 650 300 50 H V L CNN
+F1 "IN-S126ASUW" 650 200 50 H V L CNN
+F2 "INS126ASUW" 650 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/in-s126asuw/inolux-corporation" 650 0 50 H I L CNN
+F4 "Standard LEDs - SMD White LED" 650 -100 50 H I L CNN "Description"
+F5 "1" 650 -200 50 H I L CNN "Height"
+F6 "743-IN-S126ASUW" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Inolux/IN-S126ASUW?qs=fAHHVMwC%252BbgCuuXulbNrlg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Inolux" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IN-S126ASUW" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X K 1 800 0 200 L 50 50 0 0 P
+X A 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

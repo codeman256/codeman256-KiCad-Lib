@@ -12,4 +12,16 @@ K
 F https://componentsearchengine.com/Datasheets/1/PTS636 SP50 LFS.pdf
 $ENDCMP
 #
+$CMP PTS636_SM25J_SMTR_LFS
+D Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 180gf, J leads, No ground pin, White Actuator
+K
+F https://www.mouser.co.uk/datasheet/2/60/pts636-1550567.pdf
+$ENDCMP
+#
+$CMP IN-S126ASUW
+D Standard LEDs - SMD White LED
+K
+F https://www.arrow.com/en/products/in-s126asuw/inolux-corporation
+$ENDCMP
+#
 #End Doc Library
