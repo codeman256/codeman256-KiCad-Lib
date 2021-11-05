@@ -1,7 +1,29 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
-#SamacSys ECAD Model NE555DR
-#/6648/2/2.37/8/4/Integrated Circuit
+#
+# IN-S126ASUW
+#
+DEF IN-S126ASUW LED 0 30 Y Y 1 F N
+F0 "LED" 650 300 50 H V L CNN
+F1 "IN-S126ASUW" 650 200 50 H V L CNN
+F2 "INS126ASUW" 650 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/in-s126asuw/inolux-corporation" 650 0 50 H I L CNN
+F4 "Standard LEDs - SMD White LED" 650 -100 50 H I L CNN "Description"
+F5 "1" 650 -200 50 H I L CNN "Height"
+F6 "743-IN-S126ASUW" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Inolux/IN-S126ASUW?qs=fAHHVMwC%252BbgCuuXulbNrlg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Inolux" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IN-S126ASUW" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X K 1 800 0 200 L 50 50 0 0 P
+X A 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# NE555DR
+#
 DEF NE555DR IC 0 30 Y Y 1 F N
 F0 "IC" 1050 600 50 H V L CNN
 F1 "NE555DR" 1050 500 50 H V L CNN
@@ -16,6 +38,7 @@ F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 
 F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
 F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
 DRAW
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
 X GND 1 600 -1000 200 U 50 50 0 0 B
 X TRIG 2 0 -400 200 R 50 50 0 0 B
 X OUT 3 1200 -200 200 L 50 50 0 0 B
@@ -24,32 +47,11 @@ X CONT 5 500 600 200 D 50 50 0 0 B
 X THRES 6 0 -300 200 R 50 50 0 0 B
 X DISCH 7 0 -100 200 R 50 50 0 0 B
 X VCC 8 700 600 200 D 50 50 0 0 B
-P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model PTS636_SP50_LFS
-#/4659051/651113/2.49/2/4/Switch
-DEF PTS636_SP50_LFS S 0 30 Y Y 1 F N
-F0 "S" 750 300 50 H V L CNN
-F1 "PTS636_SP50_LFS" 750 200 50 H V L CNN
-F2 "PTS636SP43LFS" 750 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/PTS636 SP50 LFS.pdf" 750 0 50 H I L CNN
-F4 "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 5.0mm H, 320gf, THT leads, Black Actuator" 750 -100 50 H I L CNN "Description"
-F5 "4.5" 750 -200 50 H I L CNN "Height"
-F6 "611-PTS636SP50LFS" 750 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=611-PTS636SP50LFS" 750 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "C & K COMPONENTS" 750 -500 50 H I L CNN "Manufacturer_Name"
-F9 "PTS636 SP50 LFS" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-X COM 1 0 0 200 R 50 50 0 0 P
-X NO 2 0 -100 200 R 50 50 0 0 P
-P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
-ENDDRAW
-ENDDEF
+# PTS636_SM25J_SMTR_LFS
 #
-#SamacSys ECAD Model PTS636_SM25J_SMTR_LFS
-#/2171930/651113/2.49/2/4/Connector
 DEF PTS636_SM25J_SMTR_LFS J 0 30 Y Y 1 F N
 F0 "J" 750 300 50 H V L CNN
 F1 "PTS636_SM25J_SMTR_LFS" 750 200 50 H V L CNN
@@ -62,30 +64,79 @@ F7 "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SM25J-SMTR-LFS?qs=vLWxofP3U
 F8 "C & K COMPONENTS" 750 -500 50 H I L CNN "Manufacturer_Name"
 F9 "PTS636 SM25J SMTR LFS" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
 X COM 1 0 0 200 R 50 50 0 0 P
 X NO 2 0 -100 200 R 50 50 0 0 P
-P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model IN-S126ASUW
-#/1364181/651113/2.49/3/4/LED
-DEF IN-S126ASUW LED 0 30 Y Y 1 F N
-F0 "LED" 650 300 50 H V L CNN
-F1 "IN-S126ASUW" 650 200 50 H V L CNN
-F2 "INS126ASUW" 650 100 50 H I L CNN
-F3 "https://www.arrow.com/en/products/in-s126asuw/inolux-corporation" 650 0 50 H I L CNN
-F4 "Standard LEDs - SMD White LED" 650 -100 50 H I L CNN "Description"
-F5 "1" 650 -200 50 H I L CNN "Height"
-F6 "743-IN-S126ASUW" 650 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Inolux/IN-S126ASUW?qs=fAHHVMwC%252BbgCuuXulbNrlg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Inolux" 650 -500 50 H I L CNN "Manufacturer_Name"
-F9 "IN-S126ASUW" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+# PTS636_SP50_LFS
+#
+DEF PTS636_SP50_LFS S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "PTS636_SP50_LFS" 750 200 50 H V L CNN
+F2 "PTS636SP43LFS" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PTS636 SP50 LFS.pdf" 750 0 50 H I L CNN
+F4 "Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 5.0mm H, 320gf, THT leads, Black Actuator" 750 -100 50 H I L CNN "Description"
+F5 "4.5" 750 -200 50 H I L CNN "Height"
+F6 "611-PTS636SP50LFS" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=611-PTS636SP50LFS" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "C & K COMPONENTS" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PTS636 SP50 LFS" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X K 1 800 0 200 L 50 50 0 0 P
-X A 2 800 -100 200 L 50 50 0 0 P
-X 3 3 0 0 200 R 50 50 0 0 P
-P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+X COM 1 0 0 200 R 50 50 0 0 P
+X NO 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# RAVF164DJT47R0
+#
+DEF RAVF164DJT47R0 R 0 30 Y Y 1 F N
+F0 "R" 650 300 50 H V L CNN
+F1 "RAVF164DJT47R0" 650 200 50 H V L CNN
+F2 "RAVF164DJT4R70" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "RES ARRAY 4 RES 47 OHM 1206" 650 -100 50 H I L CNN "Description"
+F5 "0.6" 650 -200 50 H I L CNN "Height"
+F6 "Stackpole Electronics Inc." 650 -500 50 H I L CNN "Manufacturer_Name"
+F7 "RAVF164DJT47R0" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 800 -300 200 L 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RAVF164DJT47R0
+#/2179999/651113/2.49/8/2/Resistor
+DEF RAVF164DJT47R0 R 0 30 Y Y 1 F N
+F0 "R" 650 300 50 H V L CNN
+F1 "RAVF164DJT47R0" 650 200 50 H V L CNN
+F2 "RAVF164DJT47R0" 650 100 50 H I L CNN
+F3 "https://www.seielect.com/catalog/sei-ravf.pdf" 650 0 50 H I L CNN
+F4 "RES ARRAY, 47 ohm, 5%, 0603x4, CONVEX" 650 -100 50 H I L CNN "Description"
+F5 "0.6" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Stackpole Electronics Inc." 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RAVF164DJT47R0" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 800 -300 200 L 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
 ENDDRAW
 ENDDEF
 #
